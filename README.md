@@ -24,4 +24,4 @@ It includes multiple features like cards, pagination, sticky navbar, and optimiz
 ---
 
 ## Clone the repository:
- git clone <https://github.com/MdshahidRaza018/frontend_development_assignment_MdShahidRaza>
+ git clone <https://github.com/MdshahidRaza018/frontend_dev_assignment_Md_Shahid_Raza>
