@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 58, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/mdsha/OneDrive/Desktop/frontend_dev_assignment_md_shahid_raza/src/app/api/workers/route.ts"],"sourcesContent":["import { NextResponse } from 'next/server'\nimport workersData from '../../../../workers.json'\n\nexport async function GET() {\n  try {\n    return NextResponse.json({\n      success: true,\n      data: workersData\n    })\n  } catch (error) {\n    console.error('API Error:', error)\n    return NextResponse.json({\n      success: false,\n      error: 'Failed to fetch workers data'\n    }, { status: 500 })\n  }\n}\n\n"],"names":[],"mappings":";;;;AAAA;AACA;;;AAEO,eAAe;IACpB,IAAI;QACF,OAAO,gJAAY,CAAC,IAAI,CAAC;YACvB,SAAS;YACT,MAAM,0FAAW;QACnB;IACF,EAAE,OAAO,OAAO;QACd,QAAQ,KAAK,CAAC,cAAc;QAC5B,OAAO,gJAAY,CAAC,IAAI,CAAC;YACvB,SAAS;YACT,OAAO;QACT,GAAG;YAAE,QAAQ;QAAI;IACnB;AACF","debugId":null}}]
+}
